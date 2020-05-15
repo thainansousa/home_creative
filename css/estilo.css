@@ -263,7 +263,19 @@ html,body{
     .container .ideias{
         width: 100%;
         padding-bottom: 0;
-       
+    }
+    .modal h1{
+        margin-top: 150px;
+    }
+    .content-modal form{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-modal form label{
+        margin-top: 50px;
+    }
+    .content-modal .btns{
+        margin-top: 185px;
     }
     .content footer{
         display: none;
