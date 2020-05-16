@@ -25,7 +25,7 @@ section.container{
     padding: 20px;
 }
 section.container img{
-    padding-left: 150px;;
+    padding-left: 150px;
 }
 section.container nav li{
     display: inline-block;
@@ -53,6 +53,40 @@ section.container nav li button{
     outline: none;
 }
 section.container nav li button:hover{
+    background-color: #0984e3;
+    transition: 400ms;
+}
+div.mobile{
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+div.mobile nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+
+}
+div.mobile nav li a{
+    text-decoration: none;
+    color: #25282b;
+    font-weight: bold;
+}
+div.mobile nav li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff5E84;
+}
+div.mobile nav li button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5E84;
+    outline: none;
+}
+div.mobile nav li button:hover{
     background-color: #0984e3;
     transition: 400ms;
 }
@@ -120,3 +154,50 @@ section.box-ideias .col a:hover{
     text-decoration: underline
 }
 /* End box-ideias */
+
+/* Footer */
+
+footer{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+footer a{
+    color: #ff5E84;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+/* End footer */
+
+/* Responsive */
+
+@media screen and (max-width: 1000px){
+    section.box-ideias{
+        flex-direction: column;
+    }
+    section.box-ideias .col{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px){
+    section.container{
+        display: flex;
+        justify-content: center;
+    }
+    section.container img{
+        padding: 0;
+    }
+    section.container nav{
+        display: none;
+    }
+    div.mobile{
+        display: block;
+    }
+    div.mobile li{
+         margin-left: 35px;
+    }
+}
+/* Fim responsive */
