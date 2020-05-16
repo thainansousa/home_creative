@@ -1,0 +1,122 @@
+/* Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color: #e5e5e5;
+    color: #25282b;
+}
+
+/* Fim Reset */
+
+/* Start Container */
+
+section.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+section.container img{
+    padding-left: 150px;;
+}
+section.container nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+
+}
+section.container nav li a{
+    text-decoration: none;
+    color: #25282b;
+    font-weight: bold;
+}
+section.container nav li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff5E84;
+}
+section.container nav li button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5E84;
+    outline: none;
+}
+section.container nav li button:hover{
+    background-color: #0984e3;
+    transition: 400ms;
+}
+/* End Container */
+
+/* Star chamada */
+
+section.chamada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+section.chamada p{
+    color: #777;
+    font-weight: bold;
+    opacity: 0.5;
+}
+section.chamada h1{
+    font-weight:800;
+    letter-spacing: 1;
+    font-size: 28px;
+}
+/* End chamada */
+
+/* Start box-ideias */
+
+section.box-ideias{
+    display: flex;
+    padding: 0 2%;
+}
+section.box-ideias .col{
+    width: 50%;
+    background-color: #fff;;
+    border: 30px solid #e5e5e5;
+    display: flex;
+    padding: 40px 20px 20px 20px;
+    border-radius: 45px;
+}
+section.box-ideias .col img{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+section.box-ideias .col h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section.box-ideias .col strong{
+    color: #777;
+    font-size: 12px;
+}
+section.box-ideias .col p{
+    margin: 10px 0;
+}
+section.box-ideias .col a{
+    float: right;
+    text-decoration: none;
+    color: #ff5E84;
+    font-weight: bold;
+    margin-top: 10px;
+}
+section.box-ideias .col a:hover{
+    text-decoration: underline
+}
+/* End box-ideias */

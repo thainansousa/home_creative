@@ -79,6 +79,10 @@ html,body{
 .buttons button:last-child{
     box-shadow: 0px 8px 16px #ff5E8432;
 }
+.buttons button a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .container footer{
      width: 100%;
